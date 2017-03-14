@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		807D84331E78467000776D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D84321E78467000776D03 /* AppDelegate.swift */; };
+		807D84351E78467000776D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D84341E78467000776D03 /* ViewController.swift */; };
+		807D84381E78467000776D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807D84361E78467000776D03 /* Main.storyboard */; };
+		807D843B1E78467000776D03 /* Real_Time_Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 807D84391E78467000776D03 /* Real_Time_Chat.xcdatamodeld */; };
+		807D843D1E78467000776D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807D843C1E78467000776D03 /* Assets.xcassets */; };
+		807D84401E78467000776D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807D843E1E78467000776D03 /* LaunchScreen.storyboard */; };
+		807D844B1E78467000776D03 /* Real_Time_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D844A1E78467000776D03 /* Real_Time_ChatTests.swift */; };
+		807D84561E78467000776D03 /* Real_Time_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D84551E78467000776D03 /* Real_Time_ChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		807D84471E78467000776D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807D84271E78466F00776D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807D842E1E78466F00776D03;
+			remoteInfo = "Real Time Chat";
+		};
+		807D84521E78467000776D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807D84271E78466F00776D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807D842E1E78466F00776D03;
+			remoteInfo = "Real Time Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		807D842F1E78467000776D03 /* Real Time Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Time Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807D84321E78467000776D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		807D84341E78467000776D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		807D84371E78467000776D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		807D843A1E78467000776D03 /* Real_Time_Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Real_Time_Chat.xcdatamodel; sourceTree = "<group>"; };
+		807D843C1E78467000776D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807D843F1E78467000776D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		807D84411E78467000776D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807D84461E78467000776D03 /* Real Time ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real Time ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807D844A1E78467000776D03 /* Real_Time_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_Time_ChatTests.swift; sourceTree = "<group>"; };
+		807D844C1E78467000776D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807D84511E78467000776D03 /* Real Time ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real Time ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807D84551E78467000776D03 /* Real_Time_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_Time_ChatUITests.swift; sourceTree = "<group>"; };
+		807D84571E78467000776D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807D842C1E78466F00776D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807D84431E78467000776D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807D844E1E78467000776D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		807D84261E78466F00776D03 = {
+			isa = PBXGroup;
+			children = (
+				807D84311E78467000776D03 /* Real Time Chat */,
+				807D84491E78467000776D03 /* Real Time ChatTests */,
+				807D84541E78467000776D03 /* Real Time ChatUITests */,
+				807D84301E78467000776D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		807D84301E78467000776D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807D842F1E78467000776D03 /* Real Time Chat.app */,
+				807D84461E78467000776D03 /* Real Time ChatTests.xctest */,
+				807D84511E78467000776D03 /* Real Time ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807D84311E78467000776D03 /* Real Time Chat */ = {
+			isa = PBXGroup;
+			children = (
+				807D84321E78467000776D03 /* AppDelegate.swift */,
+				807D84341E78467000776D03 /* ViewController.swift */,
+				807D84361E78467000776D03 /* Main.storyboard */,
+				807D843C1E78467000776D03 /* Assets.xcassets */,
+				807D843E1E78467000776D03 /* LaunchScreen.storyboard */,
+				807D84411E78467000776D03 /* Info.plist */,
+				807D84391E78467000776D03 /* Real_Time_Chat.xcdatamodeld */,
+			);
+			path = "Real Time Chat";
+			sourceTree = "<group>";
+		};
+		807D84491E78467000776D03 /* Real Time ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				807D844A1E78467000776D03 /* Real_Time_ChatTests.swift */,
+				807D844C1E78467000776D03 /* Info.plist */,
+			);
+			path = "Real Time ChatTests";
+			sourceTree = "<group>";
+		};
+		807D84541E78467000776D03 /* Real Time ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				807D84551E78467000776D03 /* Real_Time_ChatUITests.swift */,
+				807D84571E78467000776D03 /* Info.plist */,
+			);
+			path = "Real Time ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807D842E1E78466F00776D03 /* Real Time Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807D845A1E78467000776D03 /* Build configuration list for PBXNativeTarget "Real Time Chat" */;
+			buildPhases = (
+				807D842B1E78466F00776D03 /* Sources */,
+				807D842C1E78466F00776D03 /* Frameworks */,
+				807D842D1E78466F00776D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Real Time Chat";
+			productName = "Real Time Chat";
+			productReference = 807D842F1E78467000776D03 /* Real Time Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		807D84451E78467000776D03 /* Real Time ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807D845D1E78467000776D03 /* Build configuration list for PBXNativeTarget "Real Time ChatTests" */;
+			buildPhases = (
+				807D84421E78467000776D03 /* Sources */,
+				807D84431E78467000776D03 /* Frameworks */,
+				807D84441E78467000776D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807D84481E78467000776D03 /* PBXTargetDependency */,
+			);
+			name = "Real Time ChatTests";
+			productName = "Real Time ChatTests";
+			productReference = 807D84461E78467000776D03 /* Real Time ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		807D84501E78467000776D03 /* Real Time ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807D84601E78467000776D03 /* Build configuration list for PBXNativeTarget "Real Time ChatUITests" */;
+			buildPhases = (
+				807D844D1E78467000776D03 /* Sources */,
+				807D844E1E78467000776D03 /* Frameworks */,
+				807D844F1E78467000776D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807D84531E78467000776D03 /* PBXTargetDependency */,
+			);
+			name = "Real Time ChatUITests";
+			productName = "Real Time ChatUITests";
+			productReference = 807D84511E78467000776D03 /* Real Time ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807D84271E78466F00776D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vaibhav Kumar Singh";
+				TargetAttributes = {
+					807D842E1E78466F00776D03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					807D84451E78467000776D03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 807D842E1E78466F00776D03;
+					};
+					807D84501E78467000776D03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 807D842E1E78466F00776D03;
+					};
+				};
+			};
+			buildConfigurationList = 807D842A1E78466F00776D03 /* Build configuration list for PBXProject "Real Time Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 807D84261E78466F00776D03;
+			productRefGroup = 807D84301E78467000776D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807D842E1E78466F00776D03 /* Real Time Chat */,
+				807D84451E78467000776D03 /* Real Time ChatTests */,
+				807D84501E78467000776D03 /* Real Time ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807D842D1E78466F00776D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807D84401E78467000776D03 /* LaunchScreen.storyboard in Resources */,
+				807D843D1E78467000776D03 /* Assets.xcassets in Resources */,
+				807D84381E78467000776D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807D84441E78467000776D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807D844F1E78467000776D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807D842B1E78466F00776D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807D84351E78467000776D03 /* ViewController.swift in Sources */,
+				807D843B1E78467000776D03 /* Real_Time_Chat.xcdatamodeld in Sources */,
+				807D84331E78467000776D03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807D84421E78467000776D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807D844B1E78467000776D03 /* Real_Time_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807D844D1E78467000776D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807D84561E78467000776D03 /* Real_Time_ChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		807D84481E78467000776D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807D842E1E78466F00776D03 /* Real Time Chat */;
+			targetProxy = 807D84471E78467000776D03 /* PBXContainerItemProxy */;
+		};
+		807D84531E78467000776D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807D842E1E78466F00776D03 /* Real Time Chat */;
+			targetProxy = 807D84521E78467000776D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		807D84361E78467000776D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807D84371E78467000776D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		807D843E1E78467000776D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807D843F1E78467000776D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807D84581E78467000776D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		807D84591E78467000776D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807D845B1E78467000776D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Real Time Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaibhav.Real-Time-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		807D845C1E78467000776D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Real Time Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaibhav.Real-Time-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		807D845E1E78467000776D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Real Time ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaibhav.Real-Time-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Time Chat.app/Real Time Chat";
+			};
+			name = Debug;
+		};
+		807D845F1E78467000776D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Real Time ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaibhav.Real-Time-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Time Chat.app/Real Time Chat";
+			};
+			name = Release;
+		};
+		807D84611E78467000776D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Real Time ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaibhav.Real-Time-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Real Time Chat";
+			};
+			name = Debug;
+		};
+		807D84621E78467000776D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Real Time ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vaibhav.Real-Time-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Real Time Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807D842A1E78466F00776D03 /* Build configuration list for PBXProject "Real Time Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807D84581E78467000776D03 /* Debug */,
+				807D84591E78467000776D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807D845A1E78467000776D03 /* Build configuration list for PBXNativeTarget "Real Time Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807D845B1E78467000776D03 /* Debug */,
+				807D845C1E78467000776D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		807D845D1E78467000776D03 /* Build configuration list for PBXNativeTarget "Real Time ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807D845E1E78467000776D03 /* Debug */,
+				807D845F1E78467000776D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		807D84601E78467000776D03 /* Build configuration list for PBXNativeTarget "Real Time ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807D84611E78467000776D03 /* Debug */,
+				807D84621E78467000776D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		807D84391E78467000776D03 /* Real_Time_Chat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				807D843A1E78467000776D03 /* Real_Time_Chat.xcdatamodel */,
+			);
+			currentVersion = 807D843A1E78467000776D03 /* Real_Time_Chat.xcdatamodel */;
+			path = Real_Time_Chat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 807D84271E78466F00776D03 /* Project object */;
+}
